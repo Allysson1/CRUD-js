@@ -9,4 +9,4 @@ The project doesn't save the changes in a database, it just makes a simulation o
 
 ## If you want to see the project running, you will need:
 
-have a browser that supports HTML5 and CSS3.
+have a browser that supports HTML5 and JS.
