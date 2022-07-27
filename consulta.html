@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+
+    <title>Consulta Treinos</title>
+</head>
+
+<body>
+
+    <header>
+        <br>
+        <nav class="nav justify-content-center">
+            <a href="index.html">Home</a>
+            <a href="imc.html" >IMC Clientes</a>
+            <a href="consulta.html" >Consulta De Treinos</a>
+        </nav>
+    </header>
+
+
+    <h2>Consulta de treinos</h2>
+
+    <div class="container">
+
+    <label for = "filtrar-tabela">Filtrar:</label>
+    <input type="text" name="Fiitro" id="filtrar-tabela" placeholder="Digite o nome do treino">
+        
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Aulas Na semana</th>
+                    <th>Horários</th>
+                    <th>Professor(a)</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-consulta">
+                <tr class="ClienteASerConsultado" id="">
+                    <td class="info-tipo-treino">Pilates</td>
+                    <td class="info-diasAula">Segunda, Quarta, Sexta</td>
+                    <td class="info-horario">14:00 , 15:30 , 17:00</td>
+                    <td class="info-nome">Angela</td>
+                </tr>
+
+                <tr class="ClienteASerConsultado" >
+                    
+                    <td class="info-tipo-treino">Musculação</td>
+                    <td class="info-diasAula">Segunda, Quarta, Sexta</td>
+                    <td class="info-horario">14:00 , 15:30 , 17:00</td>
+                    <td class="info-nome">João</td>
+                </tr>
+
+                <tr class="ClienteASerConsultado" >
+                    <td class="info-tipo-treino">Boxe</td>
+                    <td class="info-diasAula">Terça, Quinta</td>
+                    <td class="info-horario">13:00 , 14:30 , 16:00</td>
+                    <td class="info-nome">Márcio</td>
+                </tr>
+
+                <tr class="ClienteASerConsultado">
+                    <td class="info-tipo-treino">Boxe</td>
+                    <td class="info-diasAula">Sabado</td>
+                    <td class="info-horario">8:00 , 9:30 , 11:00</td>
+                    <td class="info-nome">Júnior</td>
+                </tr>
+                <tr class="ClienteASerConsultado" >
+                    <td class="info-tipo-treino"> Hiit</td>
+                    <td class="info-diasAula">Segunda, Terça, Sexta</td>
+                    <td class="info-horario">8:00 , 9:30 , 11:00</td>
+                    <td class="info-nome">Júnior</td>
+                </tr>
+
+                <tr class="ClienteASerConsultado" >
+                    <td class="info-tipo-treino"> Muai Thai</td>
+                    <td class="info-diasAula">Segunda, Terça, Sexta</td>
+                    <td class="info-horario">8:00 , 9:30 , 11:00</td>
+                    <td class="info-nome">Jorge</td>
+                </tr>
+
+                <tr class="ClienteASerConsultado" >
+                    <td class="info-tipo-treino"> Judô</td>
+                    <td class="info-diasAula">Quarta, Quinta</td>
+                    <td class="info-horario">7:00 , 8:30 , 10:00</td>
+                    <td class="info-nome">Macos</td>
+                </tr>
+
+                <tr class="ClienteASerConsultado" >
+                    <td class="info-tipo-treino">Ioga</td>
+                    <td class="info-diasAula">Quarta, Quinta</td>
+                    <td class="info-horario">7:00 , 8:30 , 10:00</td>
+                    <td class="info-nome">Alexandre</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <footer>
+
+        <nav class="nav justify-content-center ">
+            <a href="index.html">Home</a>
+            <a href="imc.html" >IMC Clientes</a>
+            <a href="consulta.html" >Consulta De Treinos</a>
+        </nav>
+    </footer>
+
+
+<script src="js/script.js"></script>
+<script src="js/filtrar.js"></script>
+</body>
+
+
+</html>
